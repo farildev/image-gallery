@@ -23,4 +23,30 @@ body,html{
     justify-content: center;
     align-items: center;
     height: 100%;
+    
+}
+.category__section{
+    width: 70%;
+}
+.category__list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(209, 209, 209);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+}
+.category__items{
+    margin: 0 20px;
+    background-color: #1c1c1c;
+    width: 20%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid inset rgb(203, 203, 203);
 }
